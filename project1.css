@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Outer-div{
+    background-color: rgb(218, 195, 166);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.Inner-div{
+    background-color: black;
+    min-height: 500px;
+    max-height: 500px;
+    width: 50vw;
+    display: flex;
+    border-radius: 1rem;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2rem;
+    /* alows scrolling */
+    overflow-y:auto;
+    border:3px solid rgb(141, 56, 215) ;
+    position: relative;
+    
+}
+h1,h2{
+    color: white;
+}
+#input{
+    display: flex;
+    padding: 1rem;
+    flex-direction: row;
+    margin: 1rem;
+    gap: 10px;
+    color: black;
+}
+#input-btn{
+    border-radius: 0.3rem;
+}
+
+#Add-button{
+    background-color: blue;
+    font-size: 20px;
+    padding: 0.5rem;
+    border-radius: 0.3rem;
+}
+#List{
+    color: white;
+    width: 100%;
+    /* min-height: 50px; */
+    max-height: 400px;
+    overflow-y:auto;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+.task-row{
+    display: flex;
+    gap: 1rem;
+    border: solid white 0.5px;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 4px;
+}
+.del{
+    color: red;
+    background-color: black;
+    font-size:1rem ;   
+}
+.edit{
+    color: red;
+    background-color: black;
+    font-size:1rem ;
+}
+.btnGrp{
+    display: flex;
+    gap: 2rem;
+    margin-left: auto;
+
+}
+#footbar{
+    color: white;
+    font-size: 1.3rem;
+    flex-shrink: 0;
+    margin-top: auto;
+    padding-bottom: 10px;
+    display: flex;
+    gap: 5px;
+    
+    /* flex-shrink: 0;
+    color: white;
+    margin-top: auto;
+    padding: 15px;
+    width: 100%;
+    text-align: center; */
+    
+
+}
